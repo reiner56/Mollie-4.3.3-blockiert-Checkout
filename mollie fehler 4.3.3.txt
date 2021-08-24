@@ -1,0 +1,6 @@
+Nach Update von Prestashop 1.7.7.6 auf 1.7.7.7 geht das Zahlmodul von Mollie 4.3.3 nicht mehr.
+Fehler das Modul blockiert den gesamten Checkout und es funktioniert überhaupt kein Zahlungsmodul mehr.
+Das kommt als Fehler in der Log Datei:
+
+Exception on hook paymentOptions for module . [2021-08-24T01:43:22+0200] Error executing API call (400: Bad Request): 
+The locale is invalid. Documentation: https://docs.mollie.com/overview/handling-errors. Field: locale
